@@ -4,8 +4,8 @@ public class CameraScroll : MonoBehaviour
 {
     public Camera cam;
     public float zoomSpeed = 5f;
-    public float minSize = 2f;
-    public float maxSize = 30f;
+    public float minSize = 1f;
+    public float maxSize = 120f;
 
     void Start()
     {
