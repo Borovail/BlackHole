@@ -3,9 +3,12 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
-    public class UiManager : MonoBehaviour
+    public class UiManager : Singleton<UiManager>
     {
         [SerializeField] private Text _creditText;
+        public Button AutomateUpgradeButton;
+        public Text AutomateUpgradeButtonText;
+        public Text CurrentLevel;
 
         private void Update()
         {

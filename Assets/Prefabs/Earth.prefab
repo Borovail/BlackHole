@@ -166,7 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e489274d943c861438667e00898f9dad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gravityForce: 10
+  _gravityForce: 50
+  _orbitSpeed: 50
+  _selectedTransparency: 150
 --- !u!1001 &2048159865414215955
 PrefabInstance:
   m_ObjectHideFlags: 0

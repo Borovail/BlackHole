@@ -2,41 +2,51 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts;
-using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
-[RequireComponent(typeof(SpriteRenderer))]
 public class AsteroidBelt : MonoBehaviour
 {
-    [SerializeField] private Asteroid _asteroidPrefab;
-    [SerializeField] private Button _automateButton;
-    [SerializeField] private Text _automatePriceText;
-    [SerializeField] private int _priceToAutomate;
-    [SerializeField] private float _generateAsteroidCooldown;
-    [SerializeField] private float _shootAsteroidCooldown;
+    [SerializeField, FolderPath] private string _pathToSpritesFolder;
 
+    [SerializeField] private Asteroid _asteroidPrefab;
+    [SerializeField] private int _priceToAutomate;
+
+    [SerializeField] private int _initialAsteroidsCount = 10;
+    [SerializeField] private int _maxUpgradeLevel = 5;
+    [SerializeField] private float _generateAsteroidCooldown = 2;
+    [SerializeField] private float _shootAsteroidCooldown = 4;
+    [SerializeField] private float _shootAsteroidAmountPerTime = 1;
+    [SerializeField, Tooltip("Blue sphere")] private float _minOrbitRadius = 3f;
+    [SerializeField, Tooltip("Red sphere")] private float _maxOrbitRadius = 5f;
 
     private List<Asteroid> _asteroids;
-    private RectTransform _automateButtonRectTransform;
-    private RectTransform _automateTextRectTransform;
+    private List<Sprite> _asteroidSprites;
 
-    private SpriteRenderer _renderer;
-    private float _initialTransparency;
-    private bool _auto;
+
     private float _generateAsteroidTimer;
     private float _shootAsteroidTimer;
+    private int _currentLevel = 1;
 
     private void Awake()
     {
-        _renderer = GetComponent<SpriteRenderer>();
-        _automateButtonRectTransform = _automateButton.GetComponent<RectTransform>();
-        _automateTextRectTransform = _automatePriceText.GetComponent<RectTransform>();
         _asteroids = new List<Asteroid>();
 
-        _initialTransparency = _renderer.color.a;
         _generateAsteroidTimer = _generateAsteroidCooldown;
         _shootAsteroidTimer = _shootAsteroidCooldown;
+
+        _asteroidSprites = AssetLoader<Sprite>.LoadAllAssets(_pathToSpritesFolder, FileExtensions.Sprite);
+    }
+
+    private void Start()
+    {
+        for (int i = 0; i < _initialAsteroidsCount; i++)
+        {
+            var asteroid = Instantiate(_asteroidPrefab, transform.position, Quaternion.identity);
+            asteroid.GetComponent<SpriteRenderer>().sprite = _asteroidSprites[Random.Range(0, _asteroidSprites.Count - 1)];
+            asteroid.MinOrbitRadius = _minOrbitRadius;
+            asteroid.MaxOrbitRadius = _maxOrbitRadius;
+        }
     }
 
 
@@ -46,99 +56,99 @@ public class AsteroidBelt : MonoBehaviour
         if (_generateAsteroidTimer < 0)
         {
             _generateAsteroidTimer = _generateAsteroidCooldown;
-            Instantiate(_asteroidPrefab, transform.position + Vector3.right * 2, Quaternion.identity);
+            var asteroid = Instantiate(_asteroidPrefab, transform.position, Quaternion.identity);
+            asteroid.GetComponent<SpriteRenderer>().sprite =
+                _asteroidSprites[Random.Range(0, _asteroidSprites.Count - 1)];
+            asteroid.MinOrbitRadius = _minOrbitRadius;
+            asteroid.MaxOrbitRadius = _maxOrbitRadius;
         }
 
-        if (_auto)
+        if (_currentLevel == 1) return;
+        _shootAsteroidTimer -= Time.deltaTime;
+
+        if (!(_shootAsteroidTimer < 0) || _asteroids.Count <= 0) return;
+        _shootAsteroidTimer = _shootAsteroidCooldown;
+
+        for (int i = 0; i < _shootAsteroidAmountPerTime; i++)
         {
-            _shootAsteroidTimer -= Time.deltaTime;
-
-            if (_shootAsteroidTimer < 0 && _asteroids.Count > 0)
-            {
-                _shootAsteroidTimer = _shootAsteroidCooldown;
-                var asteroid = _asteroids.FirstOrDefault(asteroid => asteroid.enteredBelt);
-                if (asteroid != null)
-                {
-                    asteroid.MoveCenter();
-                    _asteroids.Remove(asteroid); 
-                }
-            }
+            if (_asteroids.Count <= 0) return;
+            _asteroids[^1].MoveCenter();
+            _asteroids.RemoveAt(_asteroids.Count - 1);
         }
-
     }
 
-    private void ChangeUiObjectPositionToLocalObjectPosition(RectTransform uiObject, Vector3 offset)
-    {
-        Vector3 screenPosition = Camera.main.WorldToScreenPoint(transform.position + offset);
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(uiObject.parent.GetComponent<RectTransform>(), screenPosition, Camera.main, out var localPosition);
-        uiObject.localPosition = localPosition;
-    }
 
     public void OnSelected()
     {
-        if (_auto) return;
+        UiManager.Instance.CurrentLevel.gameObject.SetActive(true);
+        UiManager.Instance.AutomateUpgradeButton.gameObject.SetActive(true);
+        UiManager.Instance.CurrentLevel.text = "Current level: " + _currentLevel;
 
-        ChangeUiObjectPositionToLocalObjectPosition(_automateButtonRectTransform, Vector2.up * 3f);
-        ChangeUiObjectPositionToLocalObjectPosition(_automateTextRectTransform, Vector2.up * 4f);
+        if (_currentLevel >= _maxUpgradeLevel)
+        {
+            UiManager.Instance.AutomateUpgradeButtonText.text = "MAX!!!";
+            UiManager.Instance.AutomateUpgradeButtonText.color = Color.yellow;
+            UiManager.Instance.AutomateUpgradeButton.interactable = false;
+            return;
+        }
 
-        _automateButton.gameObject.SetActive(true);
-        _automatePriceText.text = _priceToAutomate.ToString();
-
-        var color = _renderer.color;
-        color.a = 100f / 255f;
-        _renderer.color = color;
+        UiManager.Instance.AutomateUpgradeButtonText.text = _currentLevel == 1
+            ? $"Automate: {_priceToAutomate}" : $"Upgrade: {_priceToAutomate}";
 
         if (Coins.Credit - _priceToAutomate >= 0)
         {
-            _automateButton.interactable = true;
-            _automatePriceText.color = new Color(Color.green.r, Color.green.g, Color.green.b, _automatePriceText.color.a);
-            _automateButton.onClick.AddListener(OnAutomateButtonClicked);
+            UiManager.Instance.AutomateUpgradeButtonText.color = Color.green;
+            UiManager.Instance.AutomateUpgradeButton.interactable = true;
+            UiManager.Instance.AutomateUpgradeButton.onClick.AddListener(OnAutomateButtonClicked);
         }
         else
         {
-            _automateButton.interactable = false;
-            _automatePriceText.color = new Color(Color.red.r, Color.red.g, Color.red.b, _automatePriceText.color.a);
+            UiManager.Instance.AutomateUpgradeButton.interactable = false;
+            UiManager.Instance.AutomateUpgradeButtonText.color = Color.red;
         }
     }
 
     private void OnAutomateButtonClicked()
     {
-        _automateButton.gameObject.SetActive(false);
         Coins.Credit -= _priceToAutomate;
-        _auto = true;
-        var color = _renderer.color;
-        color.a = 200f / 255f;
-        _renderer.color = color;
+        _currentLevel++;
+        _priceToAutomate *= _currentLevel;
+        _shootAsteroidCooldown /= _currentLevel;
+        _shootAsteroidAmountPerTime *= _currentLevel;
+        _generateAsteroidCooldown /= _currentLevel;
+
+        OnDeselected();
+        OnSelected();
     }
 
     public void OnDeselected()
     {
-        if (!_auto)
-        {
-            var color = _renderer.color;
-            color.a = _initialTransparency;
-            _renderer.color = color;
+        UiManager.Instance.AutomateUpgradeButton.gameObject.SetActive(false);
+        UiManager.Instance.CurrentLevel.gameObject.SetActive(false);
 
-            _automateButton.gameObject.SetActive(false);
-        }
-
-        _automateButton.onClick.RemoveListener(OnAutomateButtonClicked);
+        UiManager.Instance.AutomateUpgradeButton.onClick.RemoveListener(OnAutomateButtonClicked);
     }
 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         var asteroid = other.gameObject.GetComponent<Asteroid>();
-        if(asteroid.enteredBelt) return;
         asteroid.EnterAsteroidBelt(transform);
-        asteroid.enteredBelt = true;
         _asteroids.Add(asteroid);
     }
 
-    //private void OnTriggerExit2D(Collider2D other)
-    //{
-    //    var asteroid = other.gameObject.GetComponent<Asteroid>();
-    //    _asteroids.Add(asteroid);
-    //    Debug.Log(asteroid.name + "Exit");
-    //}
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        var asteroid = other.gameObject.GetComponent<Asteroid>();
+        _asteroids.Remove(asteroid);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.blue; // ÷вет внутренней границы
+        Gizmos.DrawWireSphere(transform.position, _minOrbitRadius);
+
+        Gizmos.color = Color.red; // ÷вет внешней границы
+        Gizmos.DrawWireSphere(transform.position, _maxOrbitRadius);
+    }
 }

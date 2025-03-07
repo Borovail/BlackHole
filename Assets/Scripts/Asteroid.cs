@@ -12,17 +12,15 @@ public class Asteroid : MonoBehaviour,IMoveable
     [SerializeField] private float _moveSpeed = 5;
     [SerializeField] private float _gravityForce = 1f;
     [SerializeField] private float _transitionSpeed = 2f;
-    [SerializeField] private float _minOrbitSpeed = 1f;
     [SerializeField] private float _rotationSpeed = 200f;
 
-    public bool enteredBelt;
     private Rigidbody2D _rigidbody;
     private AsteroidState _state;
     private Transform _asteroidBelt;
 
     private float _orbitAngle;
-    [SerializeField] private float _minOrbitRadius = 3f;  // Минимальный радиус орбиты
-    [SerializeField] private float _maxOrbitRadius = 10f; // Максимальный радиус орбиты
+    public float MinOrbitRadius { private get; set; } = 3f;// Минимальный радиус орбиты
+    public float MaxOrbitRadius { private get; set; } = 5f; // Максимальный радиус орбиты
     private float _randomRadius;          // Радиус орбиты для каждого астероида
 
     private void Awake()
@@ -34,7 +32,7 @@ public class Asteroid : MonoBehaviour,IMoveable
 
     private void Start()
     {
-        _randomRadius = Random.Range(_minOrbitRadius, _maxOrbitRadius);
+        _randomRadius = Random.Range(MinOrbitRadius, MaxOrbitRadius);
         _orbitAngle = Random.Range(0f, 360f);  // Случайный начальный угол
 
         _orbitSpeed += Random.Range(0.5f, 1.5f); 

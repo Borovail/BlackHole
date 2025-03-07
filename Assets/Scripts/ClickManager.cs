@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.LowLevel;
 
 namespace Assets.Scripts
@@ -8,22 +9,24 @@ namespace Assets.Scripts
         [SerializeField] private LayerMask _asteroidLayer;
         [SerializeField] private Asteroid _asteroidPrefab;
 
-        private AsteroidBelt selectedSAsteroidBelt;
+        private Planet selectedPlanet;
 
         public void Update()
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
+                if (EventSystem.current.IsPointerOverGameObject())
+                    return;
+
                 Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero, Mathf.Infinity, _asteroidLayer);
 
-                selectedSAsteroidBelt?.OnDeselected();
+                selectedPlanet?.OnDeselected();
 
                 if (hit.collider != null)
                 {
-
-                    if (hit.collider.TryGetComponent(out selectedSAsteroidBelt))
-                        selectedSAsteroidBelt.OnSelected();
+                    if (hit.collider.TryGetComponent(out selectedPlanet))
+                        selectedPlanet.OnSelected();
                     if (hit.collider.TryGetComponent<Asteroid>(out var asteroid))
                         asteroid.MoveCenter();
                 }
