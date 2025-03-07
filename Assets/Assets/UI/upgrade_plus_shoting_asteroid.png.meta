@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      upgrade_plus_shoting_asteroid_0: -2699025793661709515
+      upgrade_plus_shoting_asteroid_1: 1330999914738123213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
