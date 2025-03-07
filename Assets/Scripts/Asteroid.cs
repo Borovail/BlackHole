@@ -15,17 +15,29 @@ public class Asteroid : MonoBehaviour,IMoveable
     [SerializeField] private float _minOrbitSpeed = 1f;
     [SerializeField] private float _rotationSpeed = 200f;
 
+    public bool enteredBelt;
     private Rigidbody2D _rigidbody;
     private AsteroidState _state;
-    private Vector3 _asteroidBeltCenter;
+    private Transform _asteroidBelt;
+
+    private float _orbitAngle;
+    [SerializeField] private float _minOrbitRadius = 3f;  // Минимальный радиус орбиты
+    [SerializeField] private float _maxOrbitRadius = 10f; // Максимальный радиус орбиты
+    private float _randomRadius;          // Радиус орбиты для каждого астероида
 
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _rigidbody.gravityScale = 0;
         _state = AsteroidState.None;
+    }
 
-        _orbitSpeed += Random.Range(1, 5);
+    private void Start()
+    {
+        _randomRadius = Random.Range(_minOrbitRadius, _maxOrbitRadius);
+        _orbitAngle = Random.Range(0f, 360f);  // Случайный начальный угол
+
+        _orbitSpeed += Random.Range(0.5f, 1.5f); 
     }
 
     private void Update()
@@ -59,15 +71,20 @@ public class Asteroid : MonoBehaviour,IMoveable
     {
         Vector2 directionToCenter = (Vector3.zero - transform.position).normalized;
         float distance = Vector2.Distance(transform.position, Vector3.zero);
-        float gravity = _gravityForce / (distance * distance);
 
+        // Рассчитываем силу притяжения, пропорциональную квадрату расстояния
+        float gravity = _gravityForce / (distance);
+
+        // Гравитационное ускорение
         Vector2 gravityForceVector = directionToCenter * gravity;
-        _rigidbody.linearVelocity = Vector2.Lerp(_rigidbody.linearVelocity, _rigidbody.linearVelocity + gravityForceVector, Time.deltaTime);
+
+        // Обновляем скорость непосредственно, без использования Lerp
+        _rigidbody.linearVelocity += gravityForceVector * Time.deltaTime;
     }
 
     private void InAsteroidBelt()
     {
-        Vector2 directionToCenter = (_asteroidBeltCenter - transform.position).normalized;
+        Vector2 directionToCenter = (_asteroidBelt.position - transform.position).normalized;
         Vector2 desiredVelocity = Vector2.Perpendicular(directionToCenter) * _orbitSpeed;
 
         _rigidbody.linearVelocity = Vector2.Lerp(_rigidbody.linearVelocity, desiredVelocity, _transitionSpeed * Time.deltaTime);
@@ -80,9 +97,12 @@ public class Asteroid : MonoBehaviour,IMoveable
 
     private void OrbitPlanet()
     {
-        Vector2 directionToCenter = (_asteroidBeltCenter - transform.position).normalized;
-        Vector2 orbitDirection = Vector2.Perpendicular(directionToCenter);
-        _rigidbody.linearVelocity = orbitDirection * _orbitSpeed ;
+        _orbitAngle += _orbitSpeed * Time.deltaTime;
+
+        float x = _asteroidBelt.position.x + Mathf.Cos(_orbitAngle) * _randomRadius;
+        float y = _asteroidBelt.position.y + Mathf.Sin(_orbitAngle) * _randomRadius;
+
+        transform.position = new Vector3(x, y, transform.position.z);
     }
 
     public void MoveCenter()
@@ -95,9 +115,9 @@ public class Asteroid : MonoBehaviour,IMoveable
         _state = AsteroidState.GravitationalPull;
     }
 
-    public void EnterAsteroidBelt(Vector3 center)
+    public void EnterAsteroidBelt(Transform asteroidBelt)
     {
         _state = AsteroidState.InAsteroidBelt;
-        _asteroidBeltCenter = center;
+        _asteroidBelt = asteroidBelt;
     }
 }

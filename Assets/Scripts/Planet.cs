@@ -6,33 +6,56 @@ namespace Assets.Scripts
     public class Planet : MonoBehaviour, IMoveable
     {
         [SerializeField] private float _gravityForce = 1f;
+        [SerializeField] private float _orbitSpeed = 50f;
 
+
+        private AsteroidState _state;
         private Rigidbody2D _rigidbody;
-        private bool flag;
 
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody2D>();
             _rigidbody.gravityScale = 0;
+            _state = AsteroidState.Orbiting;
         }
 
         public void EnterGravitationField()
         {
-            flag = true;
+            _state = AsteroidState.GravitationalPull;
         }
+
 
         private void Update()
         {
-            if (flag)
+            switch (_state)
             {
-                Vector2 directionToCenter = (Vector3.zero - transform.position).normalized;
-                float distance = Vector2.Distance(transform.position, Vector3.zero);
-                float gravity = _gravityForce / (distance * distance);
-
-                Vector2 gravityForceVector = directionToCenter * gravity;
-                _rigidbody.linearVelocity = Vector2.Lerp(_rigidbody.linearVelocity,
-                    _rigidbody.linearVelocity + gravityForceVector, Time.deltaTime);
+                case AsteroidState.GravitationalPull:
+                    InGravitationField();
+                    break;
+                case AsteroidState.Orbiting:
+                    OrbitPlanet();
+                    break;
             }
+        }
+
+        private void OrbitPlanet()
+        {
+            transform.RotateAround(Vector3.zero, Vector3.forward, _orbitSpeed * Time.deltaTime);
+        }
+
+        private void InGravitationField()
+        {
+            Vector2 directionToCenter = (Vector3.zero - transform.position).normalized;
+            float distance = Vector2.Distance(transform.position, Vector3.zero);
+
+            // Рассчитываем силу притяжения, пропорциональную квадрату расстояния
+            float gravity = _gravityForce / (distance);
+
+            // Гравитационное ускорение
+            Vector2 gravityForceVector = directionToCenter * gravity;
+
+            // Обновляем скорость непосредственно, без использования Lerp
+            _rigidbody.linearVelocity += gravityForceVector * Time.deltaTime;
         }
     }
 }

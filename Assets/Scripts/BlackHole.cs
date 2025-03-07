@@ -8,5 +8,6 @@ public class BlackHole : MonoBehaviour
     {
         transform.localScale += new Vector3(0.1f, 0.1f);
         Destroy(collision.gameObject);
+        Coins.Credit++;
     }
 }

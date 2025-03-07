@@ -3,10 +3,12 @@ using UnityEngine.InputSystem.LowLevel;
 
 namespace Assets.Scripts
 {
-    public class AsteroidShooter : MonoBehaviour
+    public class ClickManager : MonoBehaviour
     {
         [SerializeField] private LayerMask _asteroidLayer;
         [SerializeField] private Asteroid _asteroidPrefab;
+
+        private AsteroidBelt selectedSAsteroidBelt;
 
         public void Update()
         {
@@ -15,11 +17,17 @@ namespace Assets.Scripts
                 Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero, Mathf.Infinity, _asteroidLayer);
 
+                selectedSAsteroidBelt?.OnDeselected();
+
                 if (hit.collider != null)
                 {
-                    var asteroid = hit.collider.GetComponent<Asteroid>();
-                    asteroid.MoveCenter();
+
+                    if (hit.collider.TryGetComponent(out selectedSAsteroidBelt))
+                        selectedSAsteroidBelt.OnSelected();
+                    if (hit.collider.TryGetComponent<Asteroid>(out var asteroid))
+                        asteroid.MoveCenter();
                 }
+
             }
 #if UNITY_EDITOR
             if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.W))
