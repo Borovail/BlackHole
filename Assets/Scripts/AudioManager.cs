@@ -59,7 +59,7 @@ public class AudioManager : MonoBehaviour
     {
         float time = 0;
         source.volume = 0;
-        float targetVolume = 0.1f; // Стандартная громкость
+        float targetVolume = 0.5f; // Стандартная громкость
 
         while (time < duration)
         {
