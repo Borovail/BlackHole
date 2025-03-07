@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: a5f4fef0791480a45ac68431ff861bc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8404723408852289811
+    second: third_planet_0
+  - first:
+      213: 7121267639117142933
+    second: third_planet_1
+  - first:
+      213: -8493836965783844785
+    second: third_planet_2
+  - first:
+      213: 3584280740148531332
+    second: third_planet_3
+  - first:
+      213: -1639932732250128859
+    second: third_planet_4
+  - first:
+      213: 86593262337683672
+    second: third_planet_5
+  - first:
+      213: -7648287779547576273
+    second: third_planet_6
+  - first:
+      213: 2318743878632754519
+    second: third_planet_7
+  - first:
+      213: -5783807388939479153
+    second: third_planet_8
+  - first:
+      213: -768255214612790694
+    second: third_planet_9
+  - first:
+      213: -1717410003935713361
+    second: third_planet_10
+  - first:
+      213: -8514269358293324818
+    second: third_planet_11
+  - first:
+      213: 6084792436000790605
+    second: third_planet_12
+  - first:
+      213: -4647040707788023032
+    second: third_planet_13
+  - first:
+      213: 2328538571191735153
+    second: third_planet_14
+  - first:
+      213: 3478245614836931240
+    second: third_planet_15
+  - first:
+      213: -4835891777931538421
+    second: third_planet_16
+  - first:
+      213: -9120932704631898731
+    second: third_planet_17
+  - first:
+      213: 7919861980733650800
+    second: third_planet_18
+  - first:
+      213: 1797248533465674844
+    second: third_planet_19
+  - first:
+      213: -8734871821049597211
+    second: third_planet_20
+  - first:
+      213: 5052209054562869159
+    second: third_planet_21
+  - first:
+      213: -5240386328934420870
+    second: third_planet_22
+  - first:
+      213: 2949155406423197002
+    second: third_planet_23
+  - first:
+      213: -8915923633795412121
+    second: third_planet_24
+  - first:
+      213: -752954513423832387
+    second: third_planet_25
+  - first:
+      213: 2932370678242979059
+    second: third_planet_26
+  - first:
+      213: -4803888916258504708
+    second: third_planet_27
+  - first:
+      213: 8150410827683442581
+    second: third_planet_28
+  - first:
+      213: 968048565416881746
+    second: third_planet_29
+  - first:
+      213: -4563383107351699161
+    second: third_planet_30
+  - first:
+      213: 786330981312095655
+    second: third_planet_31
+  - first:
+      213: 1674908042784342863
+    second: third_planet_32
+  - first:
+      213: 6281842931244919164
+    second: third_planet_33
+  - first:
+      213: -901455780764732422
+    second: third_planet_34
+  - first:
+      213: -4492921551527441861
+    second: third_planet_35
+  - first:
+      213: 4069219326134696787
+    second: third_planet_36
+  - first:
+      213: 2830455529830433433
+    second: third_planet_37
+  - first:
+      213: 4450561528218125426
+    second: third_planet_38
+  - first:
+      213: 1243105053155162328
+    second: third_planet_39
+  - first:
+      213: 4252314517938523231
+    second: third_planet_40
+  - first:
+      213: -8537412092523397443
+    second: third_planet_41
+  - first:
+      213: 6766372812807514308
+    second: third_planet_42
+  - first:
+      213: 4035358641933730378
+    second: third_planet_43
+  - first:
+      213: 7353738086235953698
+    second: third_planet_44
+  - first:
+      213: -6488172607100409514
+    second: third_planet_45
+  - first:
+      213: -5987417345599311201
+    second: third_planet_46
+  - first:
+      213: -5964104244071673623
+    second: third_planet_47
+  - first:
+      213: 7924113715433836576
+    second: third_planet_48
+  - first:
+      213: 5037524095528230388
+    second: third_planet_49
+  - first:
+      213: 9223250740879098460
+    second: third_planet_50
+  - first:
+      213: 4346446353641779185
+    second: third_planet_51
+  - first:
+      213: -8795640003710418906
+    second: third_planet_52
+  - first:
+      213: 6971109776931406702
+    second: third_planet_53
+  - first:
+      213: -2029116915957406093
+    second: third_planet_54
+  - first:
+      213: 6228824118148276688
+    second: third_planet_55
+  - first:
+      213: -6194425940647372232
+    second: third_planet_56
+  - first:
+      213: -1125853303704473185
+    second: third_planet_57
+  - first:
+      213: 7269735359978231520
+    second: third_planet_58
+  - first:
+      213: 6380557905203443568
+    second: third_planet_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: third_planet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3190d04096393a470800000000000000
+      internalID: 8404723408852289811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bdf0c0033d3d260800000000000000
+      internalID: 7121267639117142933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f484f5a2844df1a80800000000000000
+      internalID: -8493836965783844785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480d3d3c75cedb130800000000000000
+      internalID: 3584280740148531332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ef1b66ed9cd39e0800000000000000
+      internalID: -1639932732250128859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d074910d14a33100800000000000000
+      internalID: 86593262337683672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f280b1079c2dbd590800000000000000
+      internalID: -7648287779547576273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d440bb545dd2020800000000000000
+      internalID: 2318743878632754519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f879bfcd2d9cbbfa0800000000000000
+      internalID: -5783807388939479153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52c924e3fb9655f0800000000000000
+      internalID: -768255214612790694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7a5bd53b88a28e0800000000000000
+      internalID: -1717410003935713361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebeee0112d37d980800000000000000
+      internalID: -8514269358293324818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d489fcf5b76817450800000000000000
+      internalID: 6084792436000790605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bd38be815628fb0800000000000000
+      internalID: -4647040707788023032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173ddad4e71a05020800000000000000
+      internalID: 2328538571191735153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa5ae945f5354030800000000000000
+      internalID: 3478245614836931240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b009824bc0673ecb0800000000000000
+      internalID: -4835891777931538421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d3c28a700fb6180800000000000000
+      internalID: -9120932704631898731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07730cf928009ed60800000000000000
+      internalID: 7919861980733650800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54305ad40c11f810800000000000000
+      internalID: 1797248533465674844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2f4cbab5087c680800000000000000
+      internalID: -8734871821049597211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_21
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af5b3c0e5d0d1640800000000000000
+      internalID: 5052209054562869159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_22
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7eec0a06686647b0800000000000000
+      internalID: -5240386328934420870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_23
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45074387318de820800000000000000
+      internalID: 2949155406423197002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f4d1391b6444480800000000000000
+      internalID: -8915923633795412121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba685ffbd7fc85f0800000000000000
+      internalID: -752954513423832387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_26
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fca172789fd1b820800000000000000
+      internalID: 2932370678242979059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_27
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffb9f59b78255db0800000000000000
+      internalID: -4803888916258504708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_28
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fa19d07731c1170800000000000000
+      internalID: 8150410827683442581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_29
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25eeff29a033f6d00800000000000000
+      internalID: 968048565416881746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_30
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721a840ed3b9ba0c0800000000000000
+      internalID: -4563383107351699161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_31
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5edf08cdb99ea00800000000000000
+      internalID: 786330981312095655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_32
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f430b99adf77e3710800000000000000
+      internalID: 1674908042784342863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_33
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79e6a30dd69d2750800000000000000
+      internalID: 6281842931244919164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_34
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3bbc65eb26d73f0800000000000000
+      internalID: -901455780764732422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_35
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a828547afe5a1c0800000000000000
+      internalID: -4492921551527441861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_36
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bb96fda65c87830800000000000000
+      internalID: 4069219326134696787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_37
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9924518de4cc74720800000000000000
+      internalID: 2830455529830433433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_38
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274067c312293cd30800000000000000
+      internalID: 4450561528218125426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_39
+      rect:
+        serializedVersion: 2
+        x: 4992
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d87ec7a575604110800000000000000
+      internalID: 1243105053155162328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_40
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c46fa3681430b30800000000000000
+      internalID: 4252314517938523231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_41
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbeb40c5fe4058980800000000000000
+      internalID: -8537412092523397443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_42
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8a045393cf6ed50800000000000000
+      internalID: 6766372812807514308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_43
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4243c9fd49700830800000000000000
+      internalID: 4035358641933730378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_44
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ada51e3d9bd0660800000000000000
+      internalID: 7353738086235953698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_45
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6592c50c36165f5a0800000000000000
+      internalID: -6488172607100409514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_46
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f927a8995ab68eca0800000000000000
+      internalID: -5987417345599311201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_47
+      rect:
+        serializedVersion: 2
+        x: 6016
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e055b80ace3b3da0800000000000000
+      internalID: -5964104244071673623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_48
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0201c30c07b18fd60800000000000000
+      internalID: 7924113715433836576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_49
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd5e659971e8e540800000000000000
+      internalID: 5037524095528230388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_50
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5205749ea19fff70800000000000000
+      internalID: 9223250740879098460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_51
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff2c102eeda15c30800000000000000
+      internalID: 4346446353641779185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_52
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62000a6940c9fe580800000000000000
+      internalID: -8795640003710418906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_53
+      rect:
+        serializedVersion: 2
+        x: 6784
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63cf38586b5eb060800000000000000
+      internalID: 6971109776931406702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_54
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3766f986ae027d3e0800000000000000
+      internalID: -2029116915957406093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_55
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d12d92a88a317650800000000000000
+      internalID: 6228824118148276688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_56
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a9f3c2d6af80aa0800000000000000
+      internalID: -6194425940647372232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_57
+      rect:
+        serializedVersion: 2
+        x: 7296
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91be73a26a2060f0800000000000000
+      internalID: -1125853303704473185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_58
+      rect:
+        serializedVersion: 2
+        x: 7424
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6599e0bc943e460800000000000000
+      internalID: 7269735359978231520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_planet_59
+      rect:
+        serializedVersion: 2
+        x: 7552
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0773670fb9b4c8850800000000000000
+      internalID: 6380557905203443568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3369d7f1ca55ec34aa25e3f3bf613790
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      third_planet_0: 8404723408852289811
+      third_planet_1: 7121267639117142933
+      third_planet_10: -1717410003935713361
+      third_planet_11: -8514269358293324818
+      third_planet_12: 6084792436000790605
+      third_planet_13: -4647040707788023032
+      third_planet_14: 2328538571191735153
+      third_planet_15: 3478245614836931240
+      third_planet_16: -4835891777931538421
+      third_planet_17: -9120932704631898731
+      third_planet_18: 7919861980733650800
+      third_planet_19: 1797248533465674844
+      third_planet_2: -8493836965783844785
+      third_planet_20: -8734871821049597211
+      third_planet_21: 5052209054562869159
+      third_planet_22: -5240386328934420870
+      third_planet_23: 2949155406423197002
+      third_planet_24: -8915923633795412121
+      third_planet_25: -752954513423832387
+      third_planet_26: 2932370678242979059
+      third_planet_27: -4803888916258504708
+      third_planet_28: 8150410827683442581
+      third_planet_29: 968048565416881746
+      third_planet_3: 3584280740148531332
+      third_planet_30: -4563383107351699161
+      third_planet_31: 786330981312095655
+      third_planet_32: 1674908042784342863
+      third_planet_33: 6281842931244919164
+      third_planet_34: -901455780764732422
+      third_planet_35: -4492921551527441861
+      third_planet_36: 4069219326134696787
+      third_planet_37: 2830455529830433433
+      third_planet_38: 4450561528218125426
+      third_planet_39: 1243105053155162328
+      third_planet_4: -1639932732250128859
+      third_planet_40: 4252314517938523231
+      third_planet_41: -8537412092523397443
+      third_planet_42: 6766372812807514308
+      third_planet_43: 4035358641933730378
+      third_planet_44: 7353738086235953698
+      third_planet_45: -6488172607100409514
+      third_planet_46: -5987417345599311201
+      third_planet_47: -5964104244071673623
+      third_planet_48: 7924113715433836576
+      third_planet_49: 5037524095528230388
+      third_planet_5: 86593262337683672
+      third_planet_50: 9223250740879098460
+      third_planet_51: 4346446353641779185
+      third_planet_52: -8795640003710418906
+      third_planet_53: 6971109776931406702
+      third_planet_54: -2029116915957406093
+      third_planet_55: 6228824118148276688
+      third_planet_56: -6194425940647372232
+      third_planet_57: -1125853303704473185
+      third_planet_58: 7269735359978231520
+      third_planet_59: 6380557905203443568
+      third_planet_6: -7648287779547576273
+      third_planet_7: 2318743878632754519
+      third_planet_8: -5783807388939479153
+      third_planet_9: -768255214612790694
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

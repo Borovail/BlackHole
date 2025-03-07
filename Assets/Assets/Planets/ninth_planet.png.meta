@@ -1,0 +1,1647 @@
+fileFormatVersion: 2
+guid: f40fb5103b54a324884c836a47eb10c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6887366232254251745
+    second: ninth_planet_0
+  - first:
+      213: -3023782299628019658
+    second: ninth_planet_1
+  - first:
+      213: 2875408515035801767
+    second: ninth_planet_2
+  - first:
+      213: -4316486625016580209
+    second: ninth_planet_3
+  - first:
+      213: -2758387504417024250
+    second: ninth_planet_4
+  - first:
+      213: 2537181429139364100
+    second: ninth_planet_5
+  - first:
+      213: 4267188587987092512
+    second: ninth_planet_6
+  - first:
+      213: 2232153466601318102
+    second: ninth_planet_7
+  - first:
+      213: 6500377661018347468
+    second: ninth_planet_8
+  - first:
+      213: 5717888272254080391
+    second: ninth_planet_9
+  - first:
+      213: -8443903493626203297
+    second: ninth_planet_10
+  - first:
+      213: -6908997439328030728
+    second: ninth_planet_11
+  - first:
+      213: -6931255587218875804
+    second: ninth_planet_12
+  - first:
+      213: 3437583931371879727
+    second: ninth_planet_13
+  - first:
+      213: 8427295868949616142
+    second: ninth_planet_14
+  - first:
+      213: 8107063087346093191
+    second: ninth_planet_15
+  - first:
+      213: 5221430566152343254
+    second: ninth_planet_16
+  - first:
+      213: -5908490879040112715
+    second: ninth_planet_17
+  - first:
+      213: 4103857535222685890
+    second: ninth_planet_18
+  - first:
+      213: 2663259869356162381
+    second: ninth_planet_19
+  - first:
+      213: -793874586984297088
+    second: ninth_planet_20
+  - first:
+      213: -7097315637422572598
+    second: ninth_planet_21
+  - first:
+      213: -2497067620059937384
+    second: ninth_planet_22
+  - first:
+      213: 6287050305402994287
+    second: ninth_planet_23
+  - first:
+      213: -2731009264400967833
+    second: ninth_planet_24
+  - first:
+      213: 2832672773879093412
+    second: ninth_planet_25
+  - first:
+      213: -2049909446094153325
+    second: ninth_planet_26
+  - first:
+      213: 5002974822997784870
+    second: ninth_planet_27
+  - first:
+      213: 5237923911002095889
+    second: ninth_planet_28
+  - first:
+      213: 7489025212555547840
+    second: ninth_planet_29
+  - first:
+      213: -967587369458491447
+    second: ninth_planet_30
+  - first:
+      213: -1946736236427368766
+    second: ninth_planet_31
+  - first:
+      213: 8685985683796198685
+    second: ninth_planet_32
+  - first:
+      213: 2418113650876957876
+    second: ninth_planet_33
+  - first:
+      213: 8306019178398353696
+    second: ninth_planet_34
+  - first:
+      213: 1750137383759288476
+    second: ninth_planet_35
+  - first:
+      213: -8301057804884141337
+    second: ninth_planet_36
+  - first:
+      213: -3397262793544427790
+    second: ninth_planet_37
+  - first:
+      213: 243221092201421251
+    second: ninth_planet_38
+  - first:
+      213: 5588105771412292731
+    second: ninth_planet_39
+  - first:
+      213: 55856427982590948
+    second: ninth_planet_40
+  - first:
+      213: -2923744892084438909
+    second: ninth_planet_41
+  - first:
+      213: -6795428601713804362
+    second: ninth_planet_42
+  - first:
+      213: -3349373205808256860
+    second: ninth_planet_43
+  - first:
+      213: -8433220163843679771
+    second: ninth_planet_44
+  - first:
+      213: 3105225387325025359
+    second: ninth_planet_45
+  - first:
+      213: 5647744686927465538
+    second: ninth_planet_46
+  - first:
+      213: -1704929218848264315
+    second: ninth_planet_47
+  - first:
+      213: 5683517037906085349
+    second: ninth_planet_48
+  - first:
+      213: -4482907787523194415
+    second: ninth_planet_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ninth_planet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2098fe817d49f50800000000000000
+      internalID: 6887366232254251745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630ee88e40e5906d0800000000000000
+      internalID: -3023782299628019658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8a7d25fc087e720800000000000000
+      internalID: 2875408515035801767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f877926c842c814c0800000000000000
+      internalID: -4316486625016580209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607d856ed2d38b9d0800000000000000
+      internalID: -2758387504417024250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409d1963111e53320800000000000000
+      internalID: 2537181429139364100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02442988969183b30800000000000000
+      internalID: 4267188587987092512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6adec50c33afe10800000000000000
+      internalID: 2232153466601318102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc712eeca0bf53a50800000000000000
+      internalID: 6500377661018347468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7859315c6150a5f40800000000000000
+      internalID: 5717888272254080391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53fab0a28a31da80800000000000000
+      internalID: -8443903493626203297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffe4c23f6f4e10a0800000000000000
+      internalID: -6908997439328030728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a906c44cb3fcf90800000000000000
+      internalID: -6931255587218875804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2df20b5f50c4bf20800000000000000
+      internalID: 3437583931371879727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06dbdd61f4c3f470800000000000000
+      internalID: 8427295868949616142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c02f4cce2128070800000000000000
+      internalID: 8107063087346093191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de80e28f6f367840800000000000000
+      internalID: 5221430566152343254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7bd2c99d2d00ea0800000000000000
+      internalID: -5908490879040112715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c022c36fa4d3f830800000000000000
+      internalID: 4103857535222685890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4df6899dbcc5f420800000000000000
+      internalID: 2663259869356162381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d479ee4479bf4f0800000000000000
+      internalID: -793874586984297088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_21
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb3a9ce705418d90800000000000000
+      internalID: -7097315637422572598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_22
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8958236ca32a85dd0800000000000000
+      internalID: -2497067620059937384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_23
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e7e8a41f6104750800000000000000
+      internalID: 6287050305402994287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76754152b81891ad0800000000000000
+      internalID: -2731009264400967833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8dbf331ecaf4720800000000000000
+      internalID: 2832672773879093412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_26
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39917db38324d83e0800000000000000
+      internalID: -2049909446094153325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_27
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629710938132e6540800000000000000
+      internalID: 5002974822997784870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_28
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1110ecb9b08d0b840800000000000000
+      internalID: 5237923911002095889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_29
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4515490cc5ee760800000000000000
+      internalID: 7489025212555547840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_30
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf954af9607292f0800000000000000
+      internalID: -967587369458491447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_31
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6ad5c05bdcbf4e0800000000000000
+      internalID: -1946736236427368766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_32
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d150dc685f1da8870800000000000000
+      internalID: 8685985683796198685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_33
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b44b03cd8dde8120800000000000000
+      internalID: 2418113650876957876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_34
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02904028f68e44370800000000000000
+      internalID: 8306019178398353696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_35
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c989a1b8dacb94810800000000000000
+      internalID: 1750137383759288476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_36
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea95e748e7bccc80800000000000000
+      internalID: -8301057804884141337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_37
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6122e1d7f7ad0d0800000000000000
+      internalID: -3397262793544427790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_38
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c95c827b48106300800000000000000
+      internalID: 243221092201421251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_39
+      rect:
+        serializedVersion: 2
+        x: 4992
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7407509790fc8d40800000000000000
+      internalID: 5588105771412292731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_40
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e31354102176c000800000000000000
+      internalID: 55856427982590948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_41
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388b175e285cc67d0800000000000000
+      internalID: -2923744892084438909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_42
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbb152c0b9c1b1a0800000000000000
+      internalID: -6795428601713804362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_43
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a86697a0d2a481d0800000000000000
+      internalID: -3349373205808256860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_44
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e99f6d21fe27fa80800000000000000
+      internalID: -8433220163843679771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_45
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c680f990af71b20800000000000000
+      internalID: 3105225387325025359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_46
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c4966aed1d06e40800000000000000
+      internalID: 5647744686927465538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_47
+      rect:
+        serializedVersion: 2
+        x: 6016
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f6d5798efd658e0800000000000000
+      internalID: -1704929218848264315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_48
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5c54722a8efde40800000000000000
+      internalID: 5683517037906085349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_49
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d109d36e1389c1c0800000000000000
+      internalID: -4482907787523194415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_50
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b673fca9305834cbddcda4b296073a
+      internalID: -1858261135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_51
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa9c00ebd422a1428ba46e091d12930
+      internalID: 847391246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_52
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d448c1b31ba0af46ae57fde23d4b19d
+      internalID: -329291030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_53
+      rect:
+        serializedVersion: 2
+        x: 6784
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd16c6fc4c7aef34d8c616bce04d307b
+      internalID: 753849056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_54
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ae6df631a52224cb2ed794b9bed9b0
+      internalID: -415053999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_55
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57fc90d5c5d28341b256083681d5a3a
+      internalID: 616808600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_56
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c68ee5dfdbf3e0409499b0d8a545f47
+      internalID: -1793194353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_57
+      rect:
+        serializedVersion: 2
+        x: 7296
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a388f00179bfb7e4b8da15520de76c2f
+      internalID: -1434814734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_58
+      rect:
+        serializedVersion: 2
+        x: 7424
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6adb17dfc0f0f458785604e28251e6
+      internalID: 1709387117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ninth_planet_59
+      rect:
+        serializedVersion: 2
+        x: 7552
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f043fe2dfa7a16a4f83f64efad247803
+      internalID: -665414003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: da1c7a53d53c7d3439b61ae1d6d3adb2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ninth_planet_0: 6887366232254251745
+      ninth_planet_1: -3023782299628019658
+      ninth_planet_10: -8443903493626203297
+      ninth_planet_11: -6908997439328030728
+      ninth_planet_12: -6931255587218875804
+      ninth_planet_13: 3437583931371879727
+      ninth_planet_14: 8427295868949616142
+      ninth_planet_15: 8107063087346093191
+      ninth_planet_16: 5221430566152343254
+      ninth_planet_17: -5908490879040112715
+      ninth_planet_18: 4103857535222685890
+      ninth_planet_19: 2663259869356162381
+      ninth_planet_2: 2875408515035801767
+      ninth_planet_20: -793874586984297088
+      ninth_planet_21: -7097315637422572598
+      ninth_planet_22: -2497067620059937384
+      ninth_planet_23: 6287050305402994287
+      ninth_planet_24: -2731009264400967833
+      ninth_planet_25: 2832672773879093412
+      ninth_planet_26: -2049909446094153325
+      ninth_planet_27: 5002974822997784870
+      ninth_planet_28: 5237923911002095889
+      ninth_planet_29: 7489025212555547840
+      ninth_planet_3: -4316486625016580209
+      ninth_planet_30: -967587369458491447
+      ninth_planet_31: -1946736236427368766
+      ninth_planet_32: 8685985683796198685
+      ninth_planet_33: 2418113650876957876
+      ninth_planet_34: 8306019178398353696
+      ninth_planet_35: 1750137383759288476
+      ninth_planet_36: -8301057804884141337
+      ninth_planet_37: -3397262793544427790
+      ninth_planet_38: 243221092201421251
+      ninth_planet_39: 5588105771412292731
+      ninth_planet_4: -2758387504417024250
+      ninth_planet_40: 55856427982590948
+      ninth_planet_41: -2923744892084438909
+      ninth_planet_42: -6795428601713804362
+      ninth_planet_43: -3349373205808256860
+      ninth_planet_44: -8433220163843679771
+      ninth_planet_45: 3105225387325025359
+      ninth_planet_46: 5647744686927465538
+      ninth_planet_47: -1704929218848264315
+      ninth_planet_48: 5683517037906085349
+      ninth_planet_49: -4482907787523194415
+      ninth_planet_5: 2537181429139364100
+      ninth_planet_50: -1858261135
+      ninth_planet_51: 847391246
+      ninth_planet_52: -329291030
+      ninth_planet_53: 753849056
+      ninth_planet_54: -415053999
+      ninth_planet_55: 616808600
+      ninth_planet_56: -1793194353
+      ninth_planet_57: -1434814734
+      ninth_planet_58: 1709387117
+      ninth_planet_59: -665414003
+      ninth_planet_6: 4267188587987092512
+      ninth_planet_7: 2232153466601318102
+      ninth_planet_8: 6500377661018347468
+      ninth_planet_9: 5717888272254080391
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

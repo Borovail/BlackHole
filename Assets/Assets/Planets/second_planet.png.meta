@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: 3a165510d36a842469356eb5c9b00424
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3950986306974870758
+    second: second_planet_0
+  - first:
+      213: 6885659807422116917
+    second: second_planet_1
+  - first:
+      213: -3670036381804377554
+    second: second_planet_2
+  - first:
+      213: -3112870699419324034
+    second: second_planet_3
+  - first:
+      213: -2837763022489357802
+    second: second_planet_4
+  - first:
+      213: -3994754477723146499
+    second: second_planet_5
+  - first:
+      213: 8059581768159228293
+    second: second_planet_6
+  - first:
+      213: -5756262446260482226
+    second: second_planet_7
+  - first:
+      213: -3918833658433753661
+    second: second_planet_8
+  - first:
+      213: 2182102934687094144
+    second: second_planet_9
+  - first:
+      213: -892144757558298349
+    second: second_planet_10
+  - first:
+      213: -7324507832870415088
+    second: second_planet_11
+  - first:
+      213: -1528495637336642921
+    second: second_planet_12
+  - first:
+      213: 8486668167165689189
+    second: second_planet_13
+  - first:
+      213: -4616242547790971468
+    second: second_planet_14
+  - first:
+      213: -1031188096886064185
+    second: second_planet_15
+  - first:
+      213: -1116179769157079152
+    second: second_planet_16
+  - first:
+      213: -5659571272771873873
+    second: second_planet_17
+  - first:
+      213: -3431913309970201273
+    second: second_planet_18
+  - first:
+      213: -3339002761054056752
+    second: second_planet_19
+  - first:
+      213: -5530201220013291566
+    second: second_planet_20
+  - first:
+      213: -6674975715974047872
+    second: second_planet_21
+  - first:
+      213: -4499819460204182495
+    second: second_planet_22
+  - first:
+      213: -371717592740151673
+    second: second_planet_23
+  - first:
+      213: 1207489518804762146
+    second: second_planet_24
+  - first:
+      213: 1428024860864225758
+    second: second_planet_25
+  - first:
+      213: -1088906372918467963
+    second: second_planet_26
+  - first:
+      213: 2232810463094897930
+    second: second_planet_27
+  - first:
+      213: -1695442271440631890
+    second: second_planet_28
+  - first:
+      213: -5340065196627844033
+    second: second_planet_29
+  - first:
+      213: 5464930009246271985
+    second: second_planet_30
+  - first:
+      213: 7632749765536868080
+    second: second_planet_31
+  - first:
+      213: 8300234837270875720
+    second: second_planet_32
+  - first:
+      213: 5624993579848114459
+    second: second_planet_33
+  - first:
+      213: -6856941086645484576
+    second: second_planet_34
+  - first:
+      213: -5603260951411505992
+    second: second_planet_35
+  - first:
+      213: -246782160093225449
+    second: second_planet_36
+  - first:
+      213: 1335019107653920727
+    second: second_planet_37
+  - first:
+      213: -8128993896485760684
+    second: second_planet_38
+  - first:
+      213: 5385993390600888479
+    second: second_planet_39
+  - first:
+      213: -8875571071095196216
+    second: second_planet_40
+  - first:
+      213: 5749008764820164083
+    second: second_planet_41
+  - first:
+      213: 2716884528145123704
+    second: second_planet_42
+  - first:
+      213: -5761938543718340816
+    second: second_planet_43
+  - first:
+      213: -2659422478501021520
+    second: second_planet_44
+  - first:
+      213: 5661231736730749629
+    second: second_planet_45
+  - first:
+      213: 6799171953208666678
+    second: second_planet_46
+  - first:
+      213: 6274922844887963943
+    second: second_planet_47
+  - first:
+      213: -7444443260242859880
+    second: second_planet_48
+  - first:
+      213: -5832906340642600857
+    second: second_planet_49
+  - first:
+      213: -4219777788113759520
+    second: second_planet_50
+  - first:
+      213: 5458875842416383012
+    second: second_planet_51
+  - first:
+      213: 3099489201315564983
+    second: second_planet_52
+  - first:
+      213: 5122261256003678624
+    second: second_planet_53
+  - first:
+      213: 2189330347376476974
+    second: second_planet_54
+  - first:
+      213: 5331945984806061628
+    second: second_planet_55
+  - first:
+      213: 382191869119231481
+    second: second_planet_56
+  - first:
+      213: 9209955976826510551
+    second: second_planet_57
+  - first:
+      213: 3491481491713253568
+    second: second_planet_58
+  - first:
+      213: 8961831303011286519
+    second: second_planet_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: second_planet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13945413e64b29c0800000000000000
+      internalID: -3950986306974870758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5347491fc17ce8f50800000000000000
+      internalID: 6885659807422116917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a4acdfa59611dc0800000000000000
+      internalID: -3670036381804377554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71b361779cdcc4d0800000000000000
+      internalID: -3112870699419324034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61278cfe09d3e98d0800000000000000
+      internalID: -2837763022489357802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df62966b7f7cf88c0800000000000000
+      internalID: -3994754477723146499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5817859aae269df60800000000000000
+      internalID: 8059581768159228293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f09b89dc5ad10b0800000000000000
+      internalID: -5756262446260482226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd263fec818d99c0800000000000000
+      internalID: -3918833658433753661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0859c5dce03684e10800000000000000
+      internalID: 2182102934687094144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319b28dd1177e93f0800000000000000
+      internalID: -892144757558298349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0155133deee1a5a90800000000000000
+      internalID: -7324507832870415088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79aa0dfe051b9cae0800000000000000
+      internalID: -1528495637336642921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56db686dbb3b6c570800000000000000
+      internalID: 8486668167165689189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bdffd55cdfcfefb0800000000000000
+      internalID: -4616242547790971468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbbe7ca3eb70b1f0800000000000000
+      internalID: -1031188096886064185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f2ae9e9688280f0800000000000000
+      internalID: -1116179769157079152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa35d61c9e92571b0800000000000000
+      internalID: -5659571272771873873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7458a4317056f50d0800000000000000
+      internalID: -3431913309970201273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de035bfdaa79a1d0800000000000000
+      internalID: -3339002761054056752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d70da86a47c043b0800000000000000
+      internalID: -5530201220013291566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_21
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087120da3f8bd53a0800000000000000
+      internalID: -6674975715974047872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_22
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124c321ca0e6d81c0800000000000000
+      internalID: -4499819460204182495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_23
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78eb5ff91d467daf0800000000000000
+      internalID: -371717592740151673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e7d5ed15dd1c010800000000000000
+      internalID: 1207489518804762146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed12d328b0d51d310800000000000000
+      internalID: 1428024860864225758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_26
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58229805c6d63e0f0800000000000000
+      internalID: -1088906372918467963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_27
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0dfb8749498cfe10800000000000000
+      internalID: 2232810463094897930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_28
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea78999ac349878e0800000000000000
+      internalID: -1695442271440631890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_29
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34229d1ff644e5b0800000000000000
+      internalID: -5340065196627844033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_30
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f90f7393e457db40800000000000000
+      internalID: 5464930009246271985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_31
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f66542c879fce960800000000000000
+      internalID: 7632749765536868080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_32
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e4ad3ab9b503370800000000000000
+      internalID: 8300234837270875720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_33
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1123bebbddff0e40800000000000000
+      internalID: 5624993579848114459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_34
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e307bc496047d0a0800000000000000
+      internalID: -6856941086645484576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_35
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4cc4f1ad73d32b0800000000000000
+      internalID: -5603260951411505992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_36
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e5db2dee0439cf0800000000000000
+      internalID: -246782160093225449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_37
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d722102ec0f68210800000000000000
+      internalID: 1335019107653920727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_38
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451d5a2de13003f80800000000000000
+      internalID: -8128993896485760684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_39
+      rect:
+        serializedVersion: 2
+        x: 4992
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f902e59d374eeba40800000000000000
+      internalID: 5385993390600888479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_40
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c533a8b223a3d480800000000000000
+      internalID: -8875571071095196216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_41
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd86b5130598cf40800000000000000
+      internalID: 5749008764820164083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_42
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87948db651054b520800000000000000
+      internalID: 2716884528145123704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_43
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037690c2c6b7900b0800000000000000
+      internalID: -5761938543718340816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_44
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8f1459855d71bd0800000000000000
+      internalID: -2659422478501021520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_45
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba0103254cb09e40800000000000000
+      internalID: 5661231736730749629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_46
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a2dcd2ed28b5e50800000000000000
+      internalID: 6799171953208666678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_47
+      rect:
+        serializedVersion: 2
+        x: 6016
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729d78ad411051750800000000000000
+      internalID: 6274922844887963943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_48
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8986ca21c4600b890800000000000000
+      internalID: -7444443260242859880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_49
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768cfd5569a5d0fa0800000000000000
+      internalID: -5832906340642600857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_50
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2556485765075c0800000000000000
+      internalID: -4219777788113759520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_51
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424903408a2d1cb40800000000000000
+      internalID: 5458875842416383012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_52
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdc29db109930b20800000000000000
+      internalID: 3099489201315564983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_53
+      rect:
+        serializedVersion: 2
+        x: 6784
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a178d2397de51740800000000000000
+      internalID: 5122261256003678624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_54
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e238b53f950126e10800000000000000
+      internalID: 2189330347376476974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_55
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c368fe19f90eef940800000000000000
+      internalID: 5331945984806061628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_56
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5f4e2ea71dd4500800000000000000
+      internalID: 382191869119231481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_57
+      rect:
+        serializedVersion: 2
+        x: 7296
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcdabb1a2650df70800000000000000
+      internalID: 9209955976826510551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_58
+      rect:
+        serializedVersion: 2
+        x: 7424
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c06b650beb347030800000000000000
+      internalID: 3491481491713253568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: second_planet_59
+      rect:
+        serializedVersion: 2
+        x: 7552
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdb6f89612de5c70800000000000000
+      internalID: 8961831303011286519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bcbee27e7abfd3e4a92f8713a6ffb61c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      second_planet_0: -3950986306974870758
+      second_planet_1: 6885659807422116917
+      second_planet_10: -892144757558298349
+      second_planet_11: -7324507832870415088
+      second_planet_12: -1528495637336642921
+      second_planet_13: 8486668167165689189
+      second_planet_14: -4616242547790971468
+      second_planet_15: -1031188096886064185
+      second_planet_16: -1116179769157079152
+      second_planet_17: -5659571272771873873
+      second_planet_18: -3431913309970201273
+      second_planet_19: -3339002761054056752
+      second_planet_2: -3670036381804377554
+      second_planet_20: -5530201220013291566
+      second_planet_21: -6674975715974047872
+      second_planet_22: -4499819460204182495
+      second_planet_23: -371717592740151673
+      second_planet_24: 1207489518804762146
+      second_planet_25: 1428024860864225758
+      second_planet_26: -1088906372918467963
+      second_planet_27: 2232810463094897930
+      second_planet_28: -1695442271440631890
+      second_planet_29: -5340065196627844033
+      second_planet_3: -3112870699419324034
+      second_planet_30: 5464930009246271985
+      second_planet_31: 7632749765536868080
+      second_planet_32: 8300234837270875720
+      second_planet_33: 5624993579848114459
+      second_planet_34: -6856941086645484576
+      second_planet_35: -5603260951411505992
+      second_planet_36: -246782160093225449
+      second_planet_37: 1335019107653920727
+      second_planet_38: -8128993896485760684
+      second_planet_39: 5385993390600888479
+      second_planet_4: -2837763022489357802
+      second_planet_40: -8875571071095196216
+      second_planet_41: 5749008764820164083
+      second_planet_42: 2716884528145123704
+      second_planet_43: -5761938543718340816
+      second_planet_44: -2659422478501021520
+      second_planet_45: 5661231736730749629
+      second_planet_46: 6799171953208666678
+      second_planet_47: 6274922844887963943
+      second_planet_48: -7444443260242859880
+      second_planet_49: -5832906340642600857
+      second_planet_5: -3994754477723146499
+      second_planet_50: -4219777788113759520
+      second_planet_51: 5458875842416383012
+      second_planet_52: 3099489201315564983
+      second_planet_53: 5122261256003678624
+      second_planet_54: 2189330347376476974
+      second_planet_55: 5331945984806061628
+      second_planet_56: 382191869119231481
+      second_planet_57: 9209955976826510551
+      second_planet_58: 3491481491713253568
+      second_planet_59: 8961831303011286519
+      second_planet_6: 8059581768159228293
+      second_planet_7: -5756262446260482226
+      second_planet_8: -3918833658433753661
+      second_planet_9: 2182102934687094144
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
