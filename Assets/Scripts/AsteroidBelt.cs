@@ -9,31 +9,25 @@ public class AsteroidBelt : MonoBehaviour
 {
     [SerializeField, FolderPath] private string _pathToSpritesFolder;
 
+    [SerializeField] private SpaceShip _spaceShipPrefab;
     [SerializeField] private Asteroid _asteroidPrefab;
     [SerializeField] private int _priceToAutomate;
 
     [SerializeField] private int _initialAsteroidsCount = 10;
     [SerializeField] private int _maxUpgradeLevel = 5;
     [SerializeField] private float _generateAsteroidCooldown = 2;
-    [SerializeField] private float _shootAsteroidCooldown = 4;
-    [SerializeField] private float _shootAsteroidAmountPerTime = 1;
     [SerializeField, Tooltip("Blue sphere")] private float _minOrbitRadius = 3f;
     [SerializeField, Tooltip("Red sphere")] private float _maxOrbitRadius = 5f;
 
-    private List<Asteroid> _asteroids;
     private List<Sprite> _asteroidSprites;
 
 
     private float _generateAsteroidTimer;
-    private float _shootAsteroidTimer;
     private int _currentLevel = 1;
 
     private void Awake()
     {
-        _asteroids = new List<Asteroid>();
-
         _generateAsteroidTimer = _generateAsteroidCooldown;
-        _shootAsteroidTimer = _shootAsteroidCooldown;
 
         _asteroidSprites = AssetLoader<Sprite>.LoadAllAssets(_pathToSpritesFolder, FileExtensions.Sprite);
     }
@@ -69,24 +63,9 @@ public class AsteroidBelt : MonoBehaviour
     private void Update()
     {
         _generateAsteroidTimer -= Time.deltaTime;
-        if (_generateAsteroidTimer < 0)
-        {
-            _generateAsteroidTimer = _generateAsteroidCooldown;
-            SpawnAsteroids(1);
-        }
-
-        if (_currentLevel == 1) return;
-        _shootAsteroidTimer -= Time.deltaTime;
-
-        if (!(_shootAsteroidTimer < 0) || _asteroids.Count <= 0) return;
-        _shootAsteroidTimer = _shootAsteroidCooldown;
-
-        for (int i = 0; i < _shootAsteroidAmountPerTime; i++)
-        {
-            if (_asteroids.Count <= 0) return;
-            _asteroids[^1].MoveCenter();
-            _asteroids.RemoveAt(_asteroids.Count - 1);
-        }
+        if (!(_generateAsteroidTimer < 0)) return;
+        _generateAsteroidTimer = _generateAsteroidCooldown;
+        SpawnAsteroids(1);
     }
 
 
@@ -126,9 +105,19 @@ public class AsteroidBelt : MonoBehaviour
         Coins.Credit -= _priceToAutomate;
         _currentLevel++;
         _priceToAutomate *= _currentLevel;
-        _shootAsteroidCooldown /= _currentLevel;
-        _shootAsteroidAmountPerTime *= _currentLevel;
         _generateAsteroidCooldown /= _currentLevel;
+
+        float angle = Random.Range(0f, 360f) * Mathf.Deg2Rad;
+
+        float radius = Random.Range(_minOrbitRadius, _maxOrbitRadius);
+
+        var spawnPosition = new Vector2(
+            transform.position.x + Mathf.Cos(angle) * radius,
+            transform.position.y + Mathf.Sin(angle) * radius
+        );
+
+        for (int i = 0; i < _currentLevel; i++)
+            Instantiate(_spaceShipPrefab, spawnPosition, Quaternion.identity).SetData(transform, new Vector2(_minOrbitRadius, _maxOrbitRadius));
 
         OnDeselected();
         OnSelected();
@@ -145,15 +134,7 @@ public class AsteroidBelt : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        var asteroid = other.gameObject.GetComponent<Asteroid>();
-        asteroid.EnterAsteroidBelt(transform);
-        _asteroids.Add(asteroid);
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        var asteroid = other.gameObject.GetComponent<Asteroid>();
-        _asteroids.Remove(asteroid);
+        other.gameObject.GetComponent<Asteroid>().EnterAsteroidBelt(transform);
     }
 
     private void OnDrawGizmosSelected()

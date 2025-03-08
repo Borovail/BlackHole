@@ -5,7 +5,7 @@ namespace Assets.Scripts
     [RequireComponent(typeof(Rigidbody2D))]
     public class Planet : MonoBehaviour, IMoveable
     {
-        [SerializeField] private float _gravityForce = 1f;
+        [SerializeField] private float _gravityForce = 50f;
         [SerializeField] private float _orbitSpeed = 20f;
         [SerializeField] private float _selectedTransparency = 150f;
    

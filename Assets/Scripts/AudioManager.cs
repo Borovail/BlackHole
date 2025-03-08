@@ -17,6 +17,7 @@ public class AudioManager : Singleton<AudioManager>
     public AudioClip BlackHole;
     public AudioClip Automation;
     public AudioClip NextStage;
+    public AudioClip WinSound;
     
     [Header("Settings")]
     public float FadeDuration = 2f;

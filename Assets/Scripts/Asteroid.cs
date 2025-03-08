@@ -10,7 +10,7 @@ public class Asteroid : MonoBehaviour,IMoveable
 {
     [SerializeField] private float _orbitSpeed = 2;
     [SerializeField] private float _moveSpeed = 5;
-    [SerializeField] private float _gravityForce = 1f;
+    [SerializeField] private float _gravityForce = 10f;
     [SerializeField] private float _transitionSpeed = 2f;
     [SerializeField] private float _rotationSpeed = 200f;
 

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using static Unity.Collections.AllocatorManager;
 
 namespace Assets.Scripts
@@ -10,6 +11,22 @@ namespace Assets.Scripts
 
         [SerializeField] private float _blackHoleAteAsteroidBeltThreshold;
         [SerializeField] private float _blackHoleAteLastPlanetThreshold;
+
+        [SerializeField] private GameObject _gameOverCanvas;
+        [SerializeField] private Button _exitGameButton;
+
+
+        private bool _secondStage;
+
+        private void OnEnable()
+        {
+            _exitGameButton.onClick.AddListener(Application.Quit);
+        }
+        private void OnDisable()
+        {
+            _exitGameButton.onClick.RemoveListener(Application.Quit);
+        }
+
 
         private void Start()
         {
@@ -24,16 +41,18 @@ namespace Assets.Scripts
 
         private void Update()
         {
-            if (_blackHole.transform.localScale.x >= _blackHoleAteAsteroidBeltThreshold && _blackHole.transform.localScale.x < _blackHoleAteLastPlanetThreshold)
+            if (_blackHole.transform.localScale.x >= _blackHoleAteAsteroidBeltThreshold && !_secondStage && _blackHole.transform.localScale.x < _blackHoleAteLastPlanetThreshold)
             {
-                Debug.Log("Increase camera size");
                 AudioManager.Instance.PlaySfx(AudioManager.Instance.NextStage);
-                //Increase Camera size
+                CameraScroll.Instance.CurrentMaxSize = CameraScroll.Instance.SecondStageMax;
+                _secondStage = true;
             }
-            else if (_blackHole.transform.localScale.x >= _blackHoleAteLastPlanetThreshold)
+            else if (_blackHole.transform.localScale.x >= _blackHoleAteLastPlanetThreshold && _secondStage)
             {
-                Debug.Log("The end");
-                //End game
+                Time.timeScale = 0f;
+                _gameOverCanvas.SetActive(true);
+                AudioManager.Instance.PlaySfx(AudioManager.Instance.WinSound);
+                _secondStage = false;
             }
         }
 

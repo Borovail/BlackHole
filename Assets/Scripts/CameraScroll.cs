@@ -1,33 +1,36 @@
+using Assets.Scripts;
 using UnityEngine;
 
-public class CameraScroll : MonoBehaviour
+public class CameraScroll : Singleton<CameraScroll>
 {
-    public Camera cam;
-    public float zoomSpeed = 5f;
-    public float minSize = 1f;
-    public float maxSize = 120f;
+    public Camera Cam;
+    public float ZoomSpeed = 5f;
+    public float MinSize = 1f;
+    public float CurrentMaxSize=10f;
+    public float SecondStageMax = 120f;
 
-    void Start()
+
+    private void Start()
     {
-        if (cam == null)
-            cam = Camera.main;
+        if (Cam == null)
+            Cam = Camera.main;
 
-        cam.orthographicSize = 10;
+        Cam.orthographicSize = 10;
     }
 
-    void Update()
+    private void Update()
     {
-        float scroll = Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
+        float scroll = Input.GetAxis("Mouse ScrollWheel") * ZoomSpeed;
 
         if (Input.GetKey(KeyCode.UpArrow))
-            scroll += zoomSpeed * Time.deltaTime;
+            scroll += ZoomSpeed * Time.deltaTime;
         else if (Input.GetKey(KeyCode.DownArrow))
-            scroll -= zoomSpeed * Time.deltaTime;
+            scroll -= ZoomSpeed * Time.deltaTime;
 
         if (scroll != 0)
         {
-            cam.orthographicSize -= scroll;
-            cam.orthographicSize = Mathf.Clamp(cam.orthographicSize, minSize, maxSize);
+            Cam.orthographicSize -= scroll;
+            Cam.orthographicSize = Mathf.Clamp(Cam.orthographicSize, MinSize, CurrentMaxSize);
         }
     }
 }

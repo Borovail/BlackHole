@@ -82,12 +82,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pathToSpritesFolder: Assets\Asteroids
+  _spaceShipPrefab: {fileID: 3996444204389085087, guid: 4dd3397337ac9df4aa6a7b35facfc667, type: 3}
   _asteroidPrefab: {fileID: 1956993896433440936, guid: 78594b8e8b35431428349f5f23c83ddc, type: 3}
   _priceToAutomate: 5
   _initialAsteroidsCount: 10
-  _maxUpgradeLevel: 5
+  _maxUpgradeLevel: 4
   _generateAsteroidCooldown: 5
-  _shootAsteroidCooldown: 2
-  _shootAsteroidAmountPerTime: 1
   _minOrbitRadius: 1.5
   _maxOrbitRadius: 3
