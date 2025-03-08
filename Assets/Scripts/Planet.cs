@@ -6,7 +6,7 @@ namespace Assets.Scripts
     public class Planet : MonoBehaviour, IMoveable
     {
         [SerializeField] private float _gravityForce = 1f;
-        [SerializeField] private float _orbitSpeed = 50f;
+        [SerializeField] private float _orbitSpeed = 20f;
         [SerializeField] private float _selectedTransparency = 150f;
    
 
@@ -24,6 +24,12 @@ namespace Assets.Scripts
 
             _rigidbody.gravityScale = 0;
             _state = AsteroidState.Orbiting;
+
+            float distanceToCenter = Vector2.Distance(transform.position, Vector3.zero);
+            float distanceFactor = Mathf.Lerp(1f, 1.3f, Mathf.Clamp01(Mathf.InverseLerp(0, 10, distanceToCenter)));
+            float randomSpeedIncrease = Random.Range(0, Mathf.Lerp(10, 20, distanceFactor));
+
+            _orbitSpeed += randomSpeedIncrease;
         }
 
         public void EnterGravitationField()

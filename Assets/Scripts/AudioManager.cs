@@ -1,28 +1,29 @@
 using System;
 using System.Collections;
+using Assets.Scripts;
 using UnityEngine;
 
-public class AudioManager : MonoBehaviour
+public class AudioManager : Singleton<AudioManager>
 {
     [Header("Audio Source")]
-    [SerializeField] private AudioSource musicSource;
-    [SerializeField] private AudioSource ambientSource;
-    [SerializeField] private AudioSource sfxSource;
+    [SerializeField] private AudioSource _musicSource;
+    [SerializeField] private AudioSource _ambientSource;
+    [SerializeField] private AudioSource _sfxSource;
     
     [Header("Audio Clips")]
-    public AudioClip mainTheme;
-    public AudioClip ambient;
-    public AudioClip click;
-    public AudioClip blackHole;
-    public AudioClip automation;
-    public AudioClip nextStage;
+    public AudioClip MainTheme;
+    public AudioClip Ambient;
+    public AudioClip Click;
+    public AudioClip BlackHole;
+    public AudioClip Automation;
+    public AudioClip NextStage;
     
     [Header("Settings")]
-    public float fadeDuration = 2f;
+    public float FadeDuration = 2f;
     private void Start()
     {
-        ambientSource.clip = ambient;
-        ambientSource.Play();
+        _ambientSource.clip = Ambient;
+        _ambientSource.Play();
         StartCoroutine(PlayMainThemeAfterDelay(5f));
         StartCoroutine(PlayMainThemeAfterDelay(300f));
     }
@@ -30,14 +31,14 @@ public class AudioManager : MonoBehaviour
     private IEnumerator PlayMainThemeAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        yield return StartCoroutine(FadeIn(musicSource, fadeDuration));
+        yield return StartCoroutine(FadeIn(_musicSource, FadeDuration));
 
 
         PlayMusic();
 
 
-        yield return new WaitForSeconds(mainTheme.length); // Учитываем время на затухание
-        yield return StartCoroutine(FadeOut(musicSource, fadeDuration));
+        yield return new WaitForSeconds(MainTheme.length); // Учитываем время на затухание
+        yield return StartCoroutine(FadeOut(_musicSource, FadeDuration));
     }
 
     private IEnumerator FadeOut(AudioSource source, float duration)
@@ -73,12 +74,12 @@ public class AudioManager : MonoBehaviour
     
     public void PlayMusic()
     {
-        musicSource.clip = mainTheme;
-        musicSource.Play();
+        _musicSource.clip = MainTheme;
+        _musicSource.Play();
     }
 
     public void PlaySfx(AudioClip clip)
     {
-        sfxSource.PlayOneShot(clip);
+        _sfxSource.PlayOneShot(clip);
     }
 }

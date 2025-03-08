@@ -40,12 +40,28 @@ public class AsteroidBelt : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < _initialAsteroidsCount; i++)
+        SpawnAsteroids(_initialAsteroidsCount);
+    }
+
+    private void SpawnAsteroids(int count)
+    {
+        for (int i = 0; i < count; i++)
         {
-            var asteroid = Instantiate(_asteroidPrefab, transform.position, Quaternion.identity);
+            float angle = Random.Range(0f, 360f) * Mathf.Deg2Rad;
+
+            float radius = Random.Range(_minOrbitRadius, _maxOrbitRadius);
+
+            var spawnPosition = new Vector2(
+                transform.position.x + Mathf.Cos(angle) * radius,
+                transform.position.y + Mathf.Sin(angle) * radius
+            );
+
+            var asteroid = Instantiate(_asteroidPrefab, spawnPosition, Quaternion.identity);
             asteroid.GetComponent<SpriteRenderer>().sprite = _asteroidSprites[Random.Range(0, _asteroidSprites.Count - 1)];
+            //asteroid.GetComponent<Transform>().localScale *= Random.Range(1f, 2.5f);
             asteroid.MinOrbitRadius = _minOrbitRadius;
             asteroid.MaxOrbitRadius = _maxOrbitRadius;
+
         }
     }
 
@@ -56,11 +72,7 @@ public class AsteroidBelt : MonoBehaviour
         if (_generateAsteroidTimer < 0)
         {
             _generateAsteroidTimer = _generateAsteroidCooldown;
-            var asteroid = Instantiate(_asteroidPrefab, transform.position, Quaternion.identity);
-            asteroid.GetComponent<SpriteRenderer>().sprite =
-                _asteroidSprites[Random.Range(0, _asteroidSprites.Count - 1)];
-            asteroid.MinOrbitRadius = _minOrbitRadius;
-            asteroid.MaxOrbitRadius = _maxOrbitRadius;
+            SpawnAsteroids(1);
         }
 
         if (_currentLevel == 1) return;
@@ -110,6 +122,7 @@ public class AsteroidBelt : MonoBehaviour
 
     private void OnAutomateButtonClicked()
     {
+        AudioManager.Instance.PlaySfx(AudioManager.Instance.Automation);
         Coins.Credit -= _priceToAutomate;
         _currentLevel++;
         _priceToAutomate *= _currentLevel;

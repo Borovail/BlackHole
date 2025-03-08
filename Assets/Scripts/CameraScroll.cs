@@ -11,6 +11,8 @@ public class CameraScroll : MonoBehaviour
     {
         if (cam == null)
             cam = Camera.main;
+
+        cam.orthographicSize = 10;
     }
 
     void Update()

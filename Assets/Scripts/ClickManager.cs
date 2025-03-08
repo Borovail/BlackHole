@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.LowLevel;
+using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
@@ -8,6 +9,7 @@ namespace Assets.Scripts
     {
         [SerializeField] private LayerMask _asteroidLayer;
         [SerializeField] private Asteroid _asteroidPrefab;
+        [SerializeField] private RectTransform _buttonUpgrade;
 
         private Planet selectedPlanet;
 
@@ -15,11 +17,17 @@ namespace Assets.Scripts
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
-                if (EventSystem.current.IsPointerOverGameObject())
-                    return;
-
                 Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                if (selectedPlanet != null)
+                {
+                    Vector2 localPoint = _buttonUpgrade.InverseTransformPoint(worldPoint);
+
+                    if (_buttonUpgrade.rect.Contains(localPoint))
+                        return;
+                }
+
                 RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero, Mathf.Infinity, _asteroidLayer);
+
 
                 selectedPlanet?.OnDeselected();
 
@@ -29,6 +37,8 @@ namespace Assets.Scripts
                         selectedPlanet.OnSelected();
                     if (hit.collider.TryGetComponent<Asteroid>(out var asteroid))
                         asteroid.MoveCenter();
+
+                    AudioManager.Instance.PlaySfx(AudioManager.Instance.Click);
                 }
 
             }
